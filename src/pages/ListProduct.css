@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/jost');
+@import url('https://fonts.cdnfonts.com/css/open-sans');    
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+}
+h2.page-title {
+    font-family: "Roboto", sans-serif;
+    color:#212529;
+}
+.table-striped.table-sm tbody tr:nth-of-type(odd) {
+    background-color: #f6f6f6;
+}
+.table-striped.table-sm tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+#delete-btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-color: none;
+}
+#edit-btn {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+#detail-btn {
+    background-color: rgb(0, 0, 128);
+    color: white;
+    border-radius: 5px;
+}

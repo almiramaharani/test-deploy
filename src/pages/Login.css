@@ -1,0 +1,11 @@
+.containerStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.formStyle {
+    width: 20%;
+    text-align: left;
+}

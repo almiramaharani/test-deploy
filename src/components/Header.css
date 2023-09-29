@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/jost');
+@import url('https://fonts.cdnfonts.com/css/open-sans');    
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+a#logo-header {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+}
+
+.nav-btn {
+    --bs-btn-padding-x: 0;
+    text-decoration: none;
+    color: #0D6EFD;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+}
+
+.btn-link {
+    transition: all 0.3s;
+}
+
+.btn-link:hover {
+    background-color: #0D6EFD;
+    color: white;
+    padding: 5px 5px;
+}
